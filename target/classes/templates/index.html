@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscador</title>
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<div class="search-wrapper">
+    <form onsubmit="event.preventDefault();" role="search">
+        <input id="search" type="search" placeholder="Buscar..." autofocus required />
+    </form>
+    <div id="suggestions-box" class="hidden"></div>
+</div>
+
+
+<script src="/assets/js/buscar.js"></script>
+
+</body>
+</html>
