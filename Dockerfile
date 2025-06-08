@@ -1,5 +1,5 @@
 # Usa una imagen base oficial de OpenJDK
-FROM openjdk:23-jdk-slim
+FROM openjdk:22-jdk-slim
 
 # Establece el directorio de trabajo dentro del contenedor
 WORKDIR /searchAJAX
